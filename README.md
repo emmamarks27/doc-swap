@@ -60,10 +60,31 @@ Example response
 ]
 ```
 
-- View event by id
+
 ### Host routes
 These routes would be available to anyone authenticated as an event host
 #### Create event
+
+```
+Example POST Request
+POST http://localhost:PORT/events
+'Content-Type': 'application/json'
+Accept: 'application/json'
+
+{
+  id: 1,
+  eventName: 'title',
+  eventType: 'gig',
+  eventDate: 'date',
+  numberOfTickets: 500,
+  numberOfTicketsRemaining: 100,
+  minimumAge: 18,
+  location: 'address',
+  description: 'a real fun time',
+  host: 'fun company ltd.',
+  price: 15.5,
+};
+```
 ~~Planned extensions~~
 #### Update event details (access by id)
 #### Delete event
