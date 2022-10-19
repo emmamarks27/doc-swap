@@ -1,14 +1,9 @@
 # doc-swap
 
 ## Overview
-## Authentication
-## Browser-based authentication
-## Self-issued access tokens
-## Resources
-## Users
-## Publications
-## Posts
-## Images
+## Events
+Users can view events, create new ones, update them through booking
+## Bookings
+Users can view their bookings and book more tickets to events
 ## Testing
-
-
+We don't have any
